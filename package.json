@@ -1,0 +1,46 @@
+{
+  "name": "twilio-screensharing",
+  "homepage": "http://ShengXue97.github.io/collaborative-classroom-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is a simple React app that demonstrates how to use [Twilio Programmable Video](https://www.twilio.com/video) and implement browser extension free screen sharing feature.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "engines": {
+    "node": "12.16.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksocha/twilio-screensharing.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ksocha/twilio-screensharing/issues"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.3",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7",
+    "pg": "^8.3.0",
+    "prettier": "^1.15.3",
+    "socket.io": "^2.2.0",
+    "twilio": "^3.26.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "license": "ISC"
+}
